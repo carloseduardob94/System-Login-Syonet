@@ -21,7 +21,16 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react
 
 # Projeto
 
-## Usei as seguintes tecnologias para o desenvolvimento: </br>
+### Comentário sobre as etapas do projeto: </br>
+- O projeto possui 3 páginas:
+ * /home
+ * /signIn
+ * /users -> Essa última é privada só pode ser acessada logado.
+- Usei regex para a validação de campo da senha para atender a todos os mínimos requisitos.
+- Após o cadastrado o usuário é adicionado no banco de dados.
+- Existe uma verificação com o login e senha compatível com o user existente no banco de dados.
+
+### Usei as seguintes tecnologias para o desenvolvimento: </br>
 - React.JS </br>
   * Context </br>
   * Hooks </br>
@@ -31,7 +40,8 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react
 - react-router-dom para a navegação </br>
 - json-server para simular um banco de dados em JSON dentro do meu projeto </br>
 - React-icons para alguns icones </br>
-- Criei um token em LocalStorage após o Login para o usuário continuar logado mesmo atualizando a página. </br>
+- uuid para criação de ids
+- Criei um token em LocalStorage após o Login para o usuário continuar logado mesmo atualizando a página </br>
 </br>
 
 ### São dois comandos para iniciar o projeto: npm run dev & npm run backend </br>
