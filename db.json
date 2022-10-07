@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "754a2b0b-e7b6-4b6f-b4c5-c385dd212f9e",
+      "name": "Eduardo",
+      "email": "eduardo@eduardo.com",
+      "password": "12345678"
+    },
+    {
+      "id": "adae3b09-2f5d-48b0-952b-01766caf5b7e",
+      "name": "Eduardo2",
+      "email": "e@e.com",
+      "password": "123456@A"
+    },
+    {
+      "id": "03344b24-e0b3-424a-88c8-3118bd26cdea",
+      "name": "Carlos",
+      "email": "edu@syonet.com",
+      "password": "123E321!"
+    }
+  ]
+}
