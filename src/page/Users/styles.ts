@@ -34,6 +34,7 @@ export const Container = styled.div`
   }
 
   > div{
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
     margin-top: 5rem;
