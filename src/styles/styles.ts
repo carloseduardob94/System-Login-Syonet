@@ -13,12 +13,14 @@ export const Container = styled.div`
     width: 20rem;
     height: 3rem;
     text-align: center;
-    padding: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
 
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
-    font-weight: bold;
     
     &:hover{
       background-color: #862d2d;
