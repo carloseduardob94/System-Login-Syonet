@@ -1,11 +1,15 @@
 import { useContext } from "react"
 import { AuthContext } from "./AuthContext"
 
+import { Container } from '../../styles/styles'
+import { Link } from "react-router-dom"
+
 export const RequireAuth = ({ children }: { children: JSX.Element }) => {
   const auth = useContext(AuthContext)
 
   if(!auth.user){
-    return <h2>Você não tem acesso</h2>
+    return <Container> <Link to="/">Você não tem acesso</Link> </Container>
+
   }
   
   
