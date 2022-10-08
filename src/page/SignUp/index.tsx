@@ -11,7 +11,7 @@ import { Button } from '../../components/Button'
 import { IoArrowBackCircleOutline, IoCreateOutline } from "react-icons/io5";
 import { api } from '../../service/api'
 
-export const SignIn = () => {
+export const SignUp = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -48,7 +48,7 @@ export const SignIn = () => {
       }
 
       try{
-          const { status, data } = await api.post('users', user)
+          const { data } = await api.post('users', user)
           console.log(data)
           navigate('/')
           alert("Usuário criado com sucesso.")
