@@ -60,7 +60,7 @@ export const ProjectForm = () => {
       />
       <div>
         <p>Não possui conta?</p>
-        <Link to="/signup" >Fazer Cadastro</Link>
+        <Link to="/signin" >Fazer Cadastro</Link>
       </div>
     </Container>
   )

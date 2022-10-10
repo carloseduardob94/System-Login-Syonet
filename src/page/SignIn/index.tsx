@@ -11,7 +11,7 @@ import { Button } from '../../components/Button'
 import { IoArrowBackCircleOutline, IoCreateOutline } from "react-icons/io5";
 import { api } from '../../service/api'
 
-export const SignUp = () => {
+export const SignIn = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
