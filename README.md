@@ -27,6 +27,7 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react
  * /home
  * /signIn
  * /users -> Essa última é privada só pode ser acessada logado.
+ Alem disso a page /users mostra todos os usuários cadastrados no banco de dados em forma de um simples display com email e senha. A medida que algum usuário é   cadastrado essa página se atualiza de acordo com o banco de dados.
 - Usei regex para a validação de campo da senha para atender a todos os mínimos requisitos.
 - Após o cadastrado o usuário é adicionado no banco de dados.
 - Existe uma verificação com o login e senha compatível com o user existente no banco de dados.
@@ -54,7 +55,7 @@ db.json pode ser visto em http://localhost:5000/users
 <img align="left" src="https://avatars.githubusercontent.com/carloseduardob94?size=100">
 
 Feito com ❤️ por [C. Eduardo](https://github.com/carloseduardob94)! <br>
-🛠 FrontEnd Developer. <br>
+🛠 Front-end Developer. <br>
 📍 Fortaleza - Brasil <br> 
 
 <a href="https://www.linkedin.com/in/carlos-eduardo-lima-lira-barbosa" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="20"></a>&nbsp;
