@@ -1,4 +1,4 @@
-<h1 align="center"> Teste-syonet </h1>
+<h1 align="center"> Sistema de Login - Syonet </h1>
 <p align="center">Login com autenticação, requisição, criação de usuário e persistência. Desenvolvido com React.JS, Typescript e estilização em CSS in Js com styled-components</p>
 
 
